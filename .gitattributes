@@ -1,0 +1,16 @@
+﻿# Normalize text files and store them with LF line endings
+* text=auto eol=lf
+
+# Windows command scripts use CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Binary files must not be modified by Git
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.pdf binary
+*.zip binary
